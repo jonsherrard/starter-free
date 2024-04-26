@@ -1,4 +1,6 @@
 .expo
+ios
+node_modules
 
 # OSX
 #
