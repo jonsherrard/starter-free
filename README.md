@@ -27,7 +27,7 @@ The main apps are:
 
 - `packages` shared packages across apps
   - `ui` includes your custom UI kit that will be optimized by Tamagui
-  - `app` you'll be importing most files from `app/`
+  - `src` you'll be importing most files from `src/`
     - `features` (don't use a `screens` folder. organize by feature.)
     - `provider` (all the providers that wrap the app, and some no-ops for Web.)
 
@@ -49,7 +49,7 @@ To see debug output to verify the compiler, add `// debug` as a comment to the t
 
 Note we're following the [design systems guide](https://tamagui.dev/docs/guides/design-systems) and creating our own package for components.
 
-See `packages/ui` named `@my/ui` for how this works.
+See `packages/ui` named `@core/ui` for how this works.
 
 ## 🆕 Add new dependencies
 

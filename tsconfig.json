@@ -1,20 +1,21 @@
 {
+  "extends": "./tsconfig.base",
   "compilerOptions": {
     "esModuleInterop": true,
     "strictNullChecks": true,
     "noUncheckedIndexedAccess": true,
     "paths": {
-      "app/*": ["./packages/app/*"],
-      "@my/ui/*": ["./packages/ui/*"]
+      "@core": ["./packages/*"],
+      "core/app/*": ["packages/app/*"]
     }
   },
-  "extends": "tsconfig.base",
   "exclude": [
+    ".next",
     "**/node_modules",
     "**/dist",
     "**/types",
     "apps/next/out",
-    "apps/next/.next",
-    "apps/next/.tamagui"
+    "./apps/next/.next",
+    "./apps/next/.tamagui"
   ]
 }

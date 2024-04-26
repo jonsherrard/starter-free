@@ -1,5 +1,4 @@
-import React from 'react'
-import { Button, Paragraph, YStack } from '@my/ui'
+import { Button, Paragraph, YStack } from '@core/ui'
 import { ChevronLeft } from '@tamagui/lucide-icons'
 import { useLink } from 'solito/navigation'
 
