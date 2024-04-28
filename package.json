@@ -7,7 +7,7 @@
   ],
   "scripts": {
     "native": "cd apps/expo && yarn start",
-    "watch": "yarn workspaces foreach -pi run watch",
+    "watch": "yarn workspaces foreach -Api run watch",
     "vercel:install": "yarn set version 3.5 && yarn install",
     "web": "yarn build && cd apps/next && yarn next",
     "web:extract": "DISABLE_EXTRACTION=false yarn workspace next-app dev",
@@ -24,8 +24,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-refresh": "^0.14.0",
-    "react-native-svg": "13.9.0",
-    "react-native-web": "~0.19.6"
+    "react-native-svg": "15.2.0",
+    "react-native-web": "~0.19.11"
   },
   "dependencies": {
     "@babel/runtime": "^7.24.4",

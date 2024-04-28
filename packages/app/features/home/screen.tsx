@@ -8,7 +8,7 @@ import {
   useToastController,
   XStack,
   YStack,
-} from '@my/ui'
+} from '@core/ui'
 import { ChevronDown, ChevronUp } from '@tamagui/lucide-icons'
 import { useState } from 'react'
 import { Platform } from 'react-native'

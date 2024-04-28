@@ -1,4 +1,4 @@
-import { UserDetailScreen } from 'app/features/user/detail-screen'
+import { UserDetailScreen } from '@core/app/features/user/detail-screen'
 import Head from 'next/head'
 import { createParam } from 'solito'
 
